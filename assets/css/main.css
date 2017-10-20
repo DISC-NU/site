@@ -3789,7 +3789,7 @@
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: #23F4BD;
 			}
 
 			#sidebar nav a.active {
@@ -3886,7 +3886,7 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-color: 23F4BD;
+		//no color here to attempt to fix gradient
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
