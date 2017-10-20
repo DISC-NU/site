@@ -3080,7 +3080,7 @@
 				opacity: 0;
 			}
 
-/*
+
 		.spotlights > section:nth-child(2) {
 			background-color: rgba(0, 0, 0, 0.05);
 		}
@@ -3088,7 +3088,7 @@
 		.spotlights > section:nth-child(3) {
 			background-color: rgba(0, 0, 0, 0.1);
 		}
-*/
+
 
 		.spotlights > section.inactive > .image:before, body.is-loading .spotlights > section > .image:before {
 			opacity: 1;
