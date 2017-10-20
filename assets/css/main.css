@@ -3534,7 +3534,8 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #23F4BD;
+		background: #FFFFFF;
+		background-image: "images/Copy of Logo with no words.png";
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3884,7 +3885,7 @@
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/Copy of Logo with no words.png");
+		background-color: 23F4BD;
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
