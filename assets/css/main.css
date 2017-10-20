@@ -3216,6 +3216,7 @@
 
 	.wrapper {
 		position: relative;
+		background-color: linear-gradient(145deg, #11d9bf, #06b9cb);
 	}
 
 		.wrapper > .inner {
