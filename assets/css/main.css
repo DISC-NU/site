@@ -3514,7 +3514,7 @@
 		}
 
 	#footer > .inner a {
-		border-bottom-color: #778A8B;
+		border-bottom-color: rgba(255, 255, 255, 0.5);
 	}
 
 		#footer > .inner a:hover {
@@ -3523,7 +3523,7 @@
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: #778A8B;
+		color: rgba(255, 255, 255, 0.5);
 	}
 
 	#header + #wrapper + #footer > .inner {
