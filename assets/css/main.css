@@ -3752,7 +3752,7 @@
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: #23F4BD;
+			color: #ffffff;
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3792,7 +3792,7 @@
 			}
 
 			#sidebar nav a:hover {
-				color: #ffffff;
+				color: #000000;
 			}
 
 			#sidebar nav a.active {
