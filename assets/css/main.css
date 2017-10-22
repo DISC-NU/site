@@ -3890,7 +3890,7 @@
 	#intro {
 		background-image: url("images/NU CSSG Cover Photo.png");
 		background-attachment: fixed;
-		//no color here to attempt to fix gradient
+		background-color: none;
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
