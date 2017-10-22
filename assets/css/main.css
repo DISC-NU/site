@@ -3539,7 +3539,9 @@
 		padding: 2.5em 2.5em 0.5em 2.5em ;
 		color: #FFFFFF;
 		background: #23F4BD;
-		background-image: "images/Copy of Logo with no words.png";
+		background-image: url("images/Copy of Logo whitescale.png");
+		background-position: top left;
+		background-size: contain;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3891,9 +3893,9 @@
 		background-image: url("images/Deering_Greenscale.jpg");
 		background-attachment: fixed;
 		background-color: none;
-		background-position: top right;
+		background-position: bottom right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: cover;
 	}
 
 		#intro p {
