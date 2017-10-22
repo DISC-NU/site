@@ -3540,7 +3540,7 @@
 		color: #FFFFFF;
 		background: #23F4BD;
 		background-image: url("images/Copy of Logo whitescale.png");
-		background-position: top left;
+		background-position: bottom left;
 		background-size: contain;
 		background-repeat: no-repeat;
 		cursor: default;
@@ -3896,7 +3896,7 @@
 		background-color: none;
 		background-position: bottom right;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 100% 100%;
 	}
 
 		#intro p {
