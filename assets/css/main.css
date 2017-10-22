@@ -3542,6 +3542,7 @@
 		background-image: url("images/Copy of Logo whitescale.png");
 		background-position: top left;
 		background-size: contain;
+		background-repeat: no-repeat;
 		cursor: default;
 		height: 100vh;
 		left: 0;
