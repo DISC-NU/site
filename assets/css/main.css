@@ -3888,7 +3888,7 @@
 /* Intro */
 
 	#intro {
-		background-image: "images/NU CSSG Cover Photo.png";
+		background-image: url("images/NU CSSG Cover Photo.png");
 		background-attachment: fixed;
 		//no color here to attempt to fix gradient
 		background-position: top right;
