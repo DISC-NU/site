@@ -3014,6 +3014,7 @@
 		-ms-flex-direction: row;
 		flex-direction: row;
 		min-height: 22.5em;
+		color: rgba(255, 255, 255, 1);
 	}
 
 		body.is-ie .spotlights > section {
@@ -3541,7 +3542,7 @@
 		background: #23F4BD;
 		background-image: url("images/Copy of Logo whitescale.png");
 		background-position: bottom center;
-		background-size: 100%;
+		background-size: 80%;
 		background-repeat: no-repeat;
 		cursor: default;
 		height: 100vh;
@@ -3896,7 +3897,7 @@
 		background-color: none;
 		background-position: bottom center;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: 75% 75%;
 	}
 
 		#intro p {
