@@ -3541,7 +3541,7 @@
 		color: #FFFFFF;
 		background: #23F4BD;
 		background-image: url("images/Copy of Logo whitescale.png");
-		background-position: bottom center;
+		background-position: 50% 80%;
 		background-size: 65%;
 		background-repeat: no-repeat;
 		cursor: default;
@@ -3895,7 +3895,7 @@
 		background-image: url("images/Deering_Greenscale.jpg");
 		background-attachment: fixed;
 		background-color: none;
-		background-position: bottom center;
+		background-position: 60% 0%;
 		background-repeat: no-repeat;
 		background-size: 85% 85%;
 	}
