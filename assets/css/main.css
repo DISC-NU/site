@@ -3896,9 +3896,9 @@
 		background-image: url("images/Deering_Greenscale.jpg");
 		background-attachment: fixed;
 		background-color: none;
-		background-position: top right;
+		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: 90% 100%;
+		background-size: cover;
 	}
 
 		#intro p {
