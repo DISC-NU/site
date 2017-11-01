@@ -1908,19 +1908,37 @@
 		white-space: nowrap;
 	}
 
+		input[type="submit"]:before,
+		input[type="reset"]:before,
+		input[type="button"]:before,
+		button:after,
 		.button:before{
-			/* Attempt at button shapes*/
-			left: -17px;
-    		border-width: 17px 17px 17px 0;
-    		/**/
+    		content: "";
+    		position: absolute;
+    		height: 0;
+    		width: 100px;
+    		top: -30px;
+    		left: -25px;
+    		border-width: 0 25px 20px;
+    		border-style: solid;
+    		border-color: transparent transparent #01ff70;
 		}
 
-/*
+
 		input[type="submit"]:after,
 		input[type="reset"]:after,
 		input[type="button"]:after,
 		button:after,
 		.button:after {
+			content: "";
+  			top: 10px;
+  			left: -25px;
+  			position: absolute;
+  			width: 100px;
+  			border-width: 20px 25px 0;
+  			border-style: solid;
+  			border-color: #01ff70 transparent;
+			/*
 			-moz-transform: scale(0.25);
 			-webkit-transform: scale(0.25);
 			-ms-transform: scale(0.25);
@@ -1944,8 +1962,8 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
-		}
 		*/
+		}
 
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
