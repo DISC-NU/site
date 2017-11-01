@@ -1916,9 +1916,9 @@
     		content: "";
     		position: relative;
     		height: 0;
-    		width: 90%;
+    		width: 1000%;
     		top: -1px;
-    		left: 0px;
+    		left: -25%px;
     		border-width: 0 25px 20px;
     		border-style: solid;
     		border-color: transparent transparent #01ff70;
@@ -1932,9 +1932,9 @@
 		.button:after {
 			content: "";
   			top: 1px;
-  			left: 0px;
+  			left: 25%;
   			position: relative;
-  			width: 90%;
+  			width: 1000%;
   			border-width: 20px 25px 0;
   			border-style: solid;
   			border-color: #01ff70 transparent;
