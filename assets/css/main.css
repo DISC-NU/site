@@ -1908,13 +1908,18 @@
 		white-space: nowrap;
 	}
 
+		.button:before{
+			/* Attempt at button shapes*/
+			left: -17px;
+    		border-width: 17px 17px 17px 0;
+    		/**/
+		}
+
 		input[type="submit"]:after,
 		input[type="reset"]:after,
 		input[type="button"]:after,
 		button:after,
 		.button:after {
-			right: -17px;
-      		border-width: 17px 0 17px 17px;
 			-moz-transform: scale(0.25);
 			-webkit-transform: scale(0.25);
 			-ms-transform: scale(0.25);
@@ -1929,6 +1934,8 @@
 			transition: opacity 0.2s ease, transform 0.2s ease;
 			background: #ffffff;
 			/* border-radius: 3em; */
+			right: -17px;
+      		border-width: 17px 0 17px 17px;
 			content: '';
 			height: 100%;
 			left: 0;
@@ -1943,10 +1950,7 @@
 		input[type="button"].icon:before,
 		button.icon:before,
 		.button.icon:before {
-			/* Attempt at button shapes*/
-			left: -17px;
-    		border-width: 17px 17px 17px 0;
-    		/**/
+
 			margin-right: 0.75em;
 		}
 
@@ -3936,7 +3940,8 @@
 		}
 
 	.closedApp {
-		text-align: center center;
+		text-align: center;
+		padding-top: 5em;
 	}
 
 	.wholeBody {
