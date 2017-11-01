@@ -1915,6 +1915,7 @@
     		/**/
 		}
 
+/*
 		input[type="submit"]:after,
 		input[type="reset"]:after,
 		input[type="button"]:after,
@@ -1933,7 +1934,7 @@
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
 			background: #ffffff;
-			/* border-radius: 3em; */
+			/* border-radius: 3em;
 			right: -17px;
       		border-width: 17px 0 17px 17px;
 			content: '';
@@ -1944,6 +1945,7 @@
 			top: 0;
 			width: 100%;
 		}
+		*/
 
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
