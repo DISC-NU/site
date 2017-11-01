@@ -3823,6 +3823,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#sidebar {
+				background-image: none;
 				height: 3.5em;
 				left: 0;
 				line-height: 3.5em;
