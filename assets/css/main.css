@@ -1891,6 +1891,7 @@
 		background-color: transparent;
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.5) !important;
+		border-radius: 3em;
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
@@ -1908,21 +1909,6 @@
 		white-space: nowrap;
 	}
 
-		input[type="submit"]:before,
-		input[type="reset"]:before,
-		input[type="button"]:before,
-		button:before,
-		.button:before{
-    		content: "";
-    		position: relative;
-    		height: 0;
-    		padding: 100%;
-    		top: -1px;
-    		left: -50%;
-    		border-width: 0 25px 20px;
-    		border-style: solid;
-    		border-color: transparent transparent #01ff70;
-		}
 
 
 		input[type="submit"]:after,
@@ -1930,15 +1916,7 @@
 		input[type="button"]:after,
 		button:after,
 		.button:after {
-			content: "";
-  			top: 1px;
-  			left: -50%;
-  			position: relative;
-  			width: 1000%;
-  			border-width: 20px 25px 0;
-  			border-style: solid;
-  			border-color: #01ff70 transparent;
-			/*
+			
 			-moz-transform: scale(0.25);
 			-webkit-transform: scale(0.25);
 			-ms-transform: scale(0.25);
@@ -1952,7 +1930,7 @@
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
 			background: #ffffff;
-			/* border-radius: 3em;
+			border-radius: 3em; 
 			right: -17px;
       		border-width: 17px 0 17px 17px;
 			content: '';
@@ -1962,7 +1940,7 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
-		*/
+		
 		}
 
 		input[type="submit"].icon:before,
