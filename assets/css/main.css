@@ -1911,14 +1911,14 @@
 		input[type="submit"]:before,
 		input[type="reset"]:before,
 		input[type="button"]:before,
-		button:after,
+		button:before,
 		.button:before{
     		content: "";
     		position: relative;
     		height: 0;
     		width: 10px;
     		top: -1px;
-    		left: -25%px;
+    		left: -50%;
     		border-width: 0 25px 20px;
     		border-style: solid;
     		border-color: transparent transparent #01ff70;
@@ -1932,7 +1932,7 @@
 		.button:after {
 			content: "";
   			top: 1px;
-  			left: 25%;
+  			left: -50%;
   			position: relative;
   			width: 1000%;
   			border-width: 20px 25px 0;
