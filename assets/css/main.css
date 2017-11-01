@@ -1916,7 +1916,7 @@
     		content: "";
     		position: relative;
     		height: 0;
-    		width: 10px;
+    		padding: 100%;
     		top: -1px;
     		left: -50%;
     		border-width: 0 25px 20px;
