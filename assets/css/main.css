@@ -1891,7 +1891,10 @@
 		background-color: transparent;
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.5) !important;
-		border-radius: 3em;
+		/* Attempt at button shapes*/
+		left: -17px;
+    	border-width: 17px 17px 17px 0;
+    	/**/
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
@@ -3542,7 +3545,7 @@
 		color: #FFFFFF;
 		background: #23F4BD;
 		background-image: url("images/Copy of Logo whitescale.png");
-		background-position: 50% 95%;
+		background-position: 50% 5%;
 		background-size: 65%;
 		background-repeat: no-repeat;
 		cursor: default;
