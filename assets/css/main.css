@@ -3938,3 +3938,7 @@
 	.closedApp {
 		text-align: center center;
 	}
+
+	.wholeBody {
+		padding-bottom: 10em;
+	}
