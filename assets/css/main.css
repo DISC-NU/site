@@ -1914,11 +1914,11 @@
 		button:after,
 		.button:before{
     		content: "";
-    		position: absolute;
+    		position: relative;
     		height: 0;
     		width: 100px;
-    		top: -30px;
-    		left: -25px;
+    		top: -1px;
+    		left: 0px;
     		border-width: 0 25px 20px;
     		border-style: solid;
     		border-color: transparent transparent #01ff70;
@@ -1931,9 +1931,9 @@
 		button:after,
 		.button:after {
 			content: "";
-  			top: 10px;
-  			left: -25px;
-  			position: absolute;
+  			top: 1px;
+  			left: 0px;
+  			position: relative;
   			width: 100px;
   			border-width: 20px 25px 0;
   			border-style: solid;
