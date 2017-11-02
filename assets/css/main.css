@@ -3623,7 +3623,7 @@
 		top: 0;
 		width: 18em;
 		z-index: 10000;
-		*/
+		
 	}
 
 		#sidebar > .inner {
@@ -3888,7 +3888,7 @@
 			transform: translateY(2em);
 			opacity: 0;
 		}
-
+*/
 		@media screen and (max-width: 1280px) {
 
 			#sidebar {
