@@ -3544,6 +3544,7 @@
 
 /* Sidebar */
 
+/*
 	#sidebar {
 				background-image: none;
 				height: 3.5em;
@@ -3605,7 +3606,7 @@
 
 		}
 
-	/*
+	
 		padding: 2.5em 2.5em 0.5em 2.5em ;
 		color: #FFFFFF;
 		background: #23F4BD;
@@ -3889,7 +3890,7 @@
 			opacity: 0;
 		}
 */
-		@media screen and (max-width: 1280px) {
+		@media screen{
 
 			#sidebar {
 				background-image: none;
