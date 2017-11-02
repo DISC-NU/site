@@ -3544,7 +3544,7 @@
 
 /* Sidebar */
 
-/*
+
 	#sidebar {
 				background-image: none;
 				height: 3.5em;
@@ -3889,7 +3889,7 @@
 			transform: translateY(2em);
 			opacity: 0;
 		}
-*/
+
 		@media screen{
 
 			#sidebar {
