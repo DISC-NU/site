@@ -3563,7 +3563,6 @@
 		top: 0;
 		width: 18em;
 		z-index: 10000;
-		
 	}
 
 		#sidebar > .inner {
@@ -3766,9 +3765,9 @@
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: #ffffff;
+			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.7em;
+			font-size: 0.6em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
@@ -3794,10 +3793,10 @@
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #778A8B, #B3C3C4);
-				background-image: -webkit-linear-gradient(to right, #778A8B, #B3C3C4);
-				background-image: -ms-linear-gradient(to right, #778A8B, #B3C3C4);
-				background-image: linear-gradient(to right, #778A8B, #B3C3C4);
+				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #5e42a6, #b74e91);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3806,11 +3805,11 @@
 			}
 
 			#sidebar nav a:hover {
-				color: #000000;
+				color: rgba(255, 255, 255, 0.55);
 			}
 
 			#sidebar nav a.active {
-				color: #000000;
+				color: #ffffff;
 			}
 
 				#sidebar nav a.active:after {
@@ -3829,10 +3828,9 @@
 			opacity: 0;
 		}
 
-		@media screen{
+		@media screen and (max-width: 1280px) {
 
 			#sidebar {
-				background-image: none;
 				height: 3.5em;
 				left: 0;
 				line-height: 3.5em;
@@ -3887,7 +3885,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #B3C3C4;
+							background-color: #b74e91;
 						}
 
 		}
