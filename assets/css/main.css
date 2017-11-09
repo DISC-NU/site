@@ -1722,10 +1722,10 @@
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #000000, #ffffff);
-				background-image: -webkit-linear-gradient(to right, #000000, #ffffff);
-				background-image: -ms-linear-gradient(to right, #000000, #ffffff);
-				background-image: linear-gradient(to right, #000000, #ffffff);
+				background-image: -moz-linear-gradient(to right, #778A8B, #ffffff);
+				background-image: -webkit-linear-gradient(to right, #778A8B, #ffffff);
+				background-image: -ms-linear-gradient(to right, #778A8B, #ffffff);
+				background-image: linear-gradient(to right, #778A8B, #ffffff);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
