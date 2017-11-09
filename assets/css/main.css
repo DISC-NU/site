@@ -1722,10 +1722,10 @@
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #000000, #ffffff);
+				background-image: -webkit-linear-gradient(to right, #000000, #ffffff);
+				background-image: -ms-linear-gradient(to right, #000000, #ffffff);
+				background-image: linear-gradient(to right, #000000, #ffffff);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2571,7 +2571,7 @@
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #000000;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
