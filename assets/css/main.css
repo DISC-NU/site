@@ -3907,7 +3907,7 @@
 		background-color: none;
 		background-position: right top;
 		background-repeat: no-repeat;
-		background-size: 85%;
+		background-size: cover;
 	}
 
 		#intro p {
