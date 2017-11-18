@@ -3809,7 +3809,7 @@
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: rgba(255,255,255,0);
 			}
 
 				#sidebar nav a.active:after {
