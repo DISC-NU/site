@@ -1610,6 +1610,8 @@
 	}
 
 	body {
+        font-family: 'Karla', sans-serif;
+
 		-ms-overflow-style: scrollbar;
 	}
 
@@ -1641,7 +1643,6 @@
 
 	body, input, select, textarea {
 		color: rgba(255,255,255,1);
-		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -3946,3 +3947,7 @@
 	.wholeBody {
 		padding-bottom: 10em;
 	}
+
+    .image.left.team-img img, .image.right.team-img img{
+        width:219px;
+    }
