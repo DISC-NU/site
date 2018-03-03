@@ -3949,5 +3949,5 @@
 	}
 
     .image.left.team-img img, .image.right.team-img img{
-        width:219px;
+        max-width:219px;
     }
