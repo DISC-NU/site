@@ -3951,3 +3951,8 @@
     .image.left.team-img img, .image.right.team-img img{
         max-width:219px;
     }
+
+
+.low-padding {
+    padding: 2em;
+}
