@@ -1701,15 +1701,29 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
 	}
 
+	h2 {
+		color: rgb(26, 201, 155);
+		font-weight: bold;
+		line-height: 1.5;
+		margin: 0 0 0.5em 0;
+	}
+
+	h3, h4, h5, h6 {
+		color: #000000;
+		font-weight: bold;
+		line-height: 1.5;
+		margin: 0 0 0.5em 0;
+	}
+
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: rgb(255,255,255);
 			text-decoration: none;
 		}
 
@@ -1892,9 +1906,9 @@
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.5) !important;
+		border-color: rgba(0,0,0, 0.5) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: rgb(0, 0, 0) !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1931,7 +1945,6 @@
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #ffffff;
 			border-radius: 3em; 
 			right: -17px;
       		border-width: 17px 0 17px 17px;
@@ -2019,7 +2032,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.75) !important;
+			border-color: rgba(35, 244, 189, 0.75) !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -2062,8 +2075,8 @@
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-radius: 0.25em;
-		border: solid 1px rgba(255, 255, 255, 0.15);
-		background: rgba(255, 255, 255, 0.05);
+		border: solid 1px rgba(35, 244, 189, 0.25);
+		background: rgba(35, 244, 189, 0.15);
 		margin: 0 0 1em 0;
 	}
 
