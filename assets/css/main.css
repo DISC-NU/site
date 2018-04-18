@@ -1643,7 +1643,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255,255,255,1);
+		color: rgba(0,0,0,1);
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -3906,7 +3906,7 @@
 	#intro {
 		background-image: url("images/banner.jpg");
 		background-attachment: fixed;
-		background-color: none;
+		background-color: inherit;
 		background-position: right top;
 		background-repeat: no-repeat;
 		background-size: cover;
