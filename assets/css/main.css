@@ -1732,6 +1732,7 @@
 	}
 
 		h1.major {
+			color: rgb(26, 201, 155);
 			margin: 0 0 1.3em 0;
 			position: relative;
 			padding-bottom: 0.35em;
@@ -3901,7 +3902,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: rgb(255,255,255);
 						}
 
 		}
