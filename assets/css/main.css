@@ -1709,7 +1709,7 @@
 	}
 
 	h2 {
-		color: rgb(26, 201, 155);
+		color: #06B9BA;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1732,7 +1732,7 @@
 	}
 
 		h1.major {
-			color: rgb(26, 201, 155);
+			color: #06B9BA;
 			margin: 0 0 1.3em 0;
 			position: relative;
 			padding-bottom: 0.35em;
@@ -2622,6 +2622,7 @@
 		.image img {
 			border-radius: 0.25em;
 			display: block;
+			background-size:cover;
 		}
 
 		.image.left, .image.right {
@@ -3563,8 +3564,8 @@
 
 	#sidebar {	
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		color: #FFFFFF;
-		background: #23F4BD;
+		color: #000000;
+		background: rgba(35, 244, 189, 0.55);
 		background-image: url("images/Copy of Logo whitescale.png");
 		background-position: 50% 95%;
 		background-size: 65%;
@@ -3781,7 +3782,7 @@
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: #ffffff;
+			color: #000000;
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3805,7 +3806,7 @@
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #000000;
 			}
 
 			#sidebar nav a:after {
@@ -3825,7 +3826,7 @@
 			}
 
 			#sidebar nav a.active {
-				color: #000000;
+				color: #FFFFFF;
 			}
 
 				#sidebar nav a.active:after {
