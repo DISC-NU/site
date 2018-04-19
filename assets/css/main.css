@@ -1709,7 +1709,7 @@
 	}
 
 	h2 {
-		color: #06B9BA;
+        color: #24c196;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1732,7 +1732,7 @@
 	}
 
 		h1.major {
-			color: #06B9BA;
+            color: #24c196;
 			margin: 0 0 1.3em 0;
 			position: relative;
 			padding-bottom: 0.35em;
