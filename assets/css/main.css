@@ -3782,7 +3782,7 @@
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: #000000;
+            color: #078d6a;
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3806,14 +3806,11 @@
 			}
 
 			#sidebar nav a:before {
-				background: #000000;
+                background: #078d6a;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #778A8B, #ffffff);
-				background-image: -webkit-linear-gradient(to right, #778A8B, #ffffff);
-				background-image: -ms-linear-gradient(to right, #778A8B, #ffffff);
-				background-image: linear-gradient(to right, #778A8B, #ffffff);
+                background: #fff;
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3826,7 +3823,7 @@
 			}
 
 			#sidebar nav a.active {
-				color: #FFFFFF;
+                color: #078d6a;
 			}
 
 				#sidebar nav a.active:after {
@@ -3920,9 +3917,7 @@
 
 	#intro {
 		background-image: url("images/banner.jpg");
-		background-attachment: fixed;
 		background-color: inherit;
-		background-position: right top;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: rgb(255, 255, 255);
