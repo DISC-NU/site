@@ -863,3 +863,8 @@ p{
 		display: block;
 	}
 }
+@media only screen and (max-width: 1023px) {
+    .nav-menu{
+        height: 60px;
+    }
+}
