@@ -179,7 +179,7 @@ p{
     height: 35px;
     position: fixed;
     left: 5%;
-   /* margin-top: -10px;*/
+    margin-top: 5px;
 }
 .menu-vis{
     top: 0;
