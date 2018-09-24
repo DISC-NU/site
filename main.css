@@ -864,7 +864,7 @@ p{
 	}
 }
 @media only screen and (max-width: 1023px) {
-    .nav-menu{
-        height: 10vh;
+    .menu-nav{
+        height: 5vh;
     }
 }
