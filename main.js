@@ -8,7 +8,7 @@ $(document).ready(function(){
 			$("#hamburger").removeClass("active");
 		}
 		else {
-			$(".bar").css("transform","translate(0, 50px)");
+			$(".bar").css("transform","translate(0, 0px)");
 			$(".bar").css("opacity", "1");
 			$("#hamburger").addClass("active");
 		}})})

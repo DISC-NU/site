@@ -90,7 +90,10 @@ p{
     width: auto;
     display: inline-block;
 }
-.home-text a{
+.home-text a:hover{
+    text-decoration: underline;
+}
+.home-cta{
     background: linear-gradient(to right, #2cbca6, #38c9c8);
     border-radius: 30px;
     padding: 10px 50px;
@@ -100,6 +103,11 @@ p{
     color: #fff;
     letter-spacing: 1.5px;
     box-shadow: 4px 4px 10px rgba(0,0,0,.15);
+}
+.home-cta:hover{
+    color: #2cbca6;
+    background: #fff;
+    text-decoration: none;
 }
 .home-text img{
     width: 100px;
@@ -168,6 +176,8 @@ p{
     background-size: cover;
     -webkit-transition:1s ease-in-out;
     height: 50px;
+    padding-top: 10px;
+    padding-right: 15px;
 }
 .menu-nav a{
     color: #666;
@@ -393,9 +403,9 @@ p{
     padding: 25px;
 }
 .nav-opener {
-	left: calc(100vw - 75px);
-	width: 40px;
-	height: 40px;
+	left: calc(100vw - 105px);
+	width: 90px;
+	height: 90px;
 	background: transparent;
 	position: fixed;
 	border-radius: 5px;
@@ -415,7 +425,7 @@ p{
 	top: 50%;
 	left: 25%;
 	right: 25%;
-	height: 4px;
+	height: 8px;
 	margin-top: -15px;
 	-webkit-transition: all .3s linear;
 	transition: all .3s linear;
@@ -775,6 +785,7 @@ p{
 		margin: 0;
 		/*padding: 0 0 10px;*/
         margin-right: 10px;
+        padding-top: 90px;
 		background: #fff;
 		opacity: 0;
 		/*-webkit-transform: translateY(-100%);
@@ -811,7 +822,6 @@ p{
 
 	#nav > li {
 		display: block;
-		padding: 0;
 	}
 
 	#nav > li.active > a {
@@ -827,7 +837,13 @@ p{
 	#nav > li > a {
 		color: inherit;
 		display: block;
-		padding: 15px 10px;
+		padding: 35px 10px;
+        border-radius: 40px;
+        text-transform: uppercase;
+        font-weight: 1000;
+        font-size: 35px;
+        letter-spacing: 5px;
+        margin-top: 30px;
 		background: #eee;
 		color: rgb(44, 188, 166);
 		border-top: 1px solid #fff;
