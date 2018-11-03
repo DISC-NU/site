@@ -175,8 +175,9 @@ p{
     background: #fff;
     background-size: cover;
     -webkit-transition:1s ease-in-out;
-    height: 50px;
+    height: 70px;
     padding-top: 10px;
+    padding-bottom: 30px;
     padding-right: 15px;
 }
 .menu-nav a{
@@ -697,7 +698,7 @@ p{
     }
     .menu-nav{
         position: fixed;
-        height: 60px;
+        height: 150px;
     }
     .menu-nav img{
         width: 15%;
@@ -878,9 +879,4 @@ p{
 		top: auto;
 		display: block;
 	}
-}
-@media only screen and (max-width: 1023px) {
-    .menu-nav{
-        height: 5vh;
-    }
 }
