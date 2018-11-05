@@ -109,6 +109,9 @@ p{
     background: #fff;
     text-decoration: none;
 }
+.home-cta a:hover{
+    text-decoration: none;
+}
 .home-text img{
     width: 100px;
     margin-top: 25px;
@@ -356,7 +359,6 @@ p{
     margin-bottom: 50px;
     box-sizing: border-box;
     padding: 0px;
-    height: 300px;
     vertical-align: top;
     display: inline-block;
     position: relative;
